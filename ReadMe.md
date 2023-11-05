@@ -1,7 +1,7 @@
 # Lua Interpreter 
 In this project a **Lua interpreter** is developed with **Java** and **C**. **JNA** and **Lua C api** are used. The interpreter runs on **Linux**, to make it run on Windows you should convert the .so libraries to .ddl . <br>
 
-To use the shared libraries run the following command from the terminal: export LD_LIBRARY_PATH=$LD_LIBRARY_PATH../Project/lib . <br> 
+To use the shared libraries run the following command from the terminal: <br> export LD_LIBRARY_PATH=$LD_LIBRARY_PATH../Project/lib . <br> 
 
 You need to install jna.jar and jna-platform.jar. Then, run the java file from cmd with the following commands:
   - javac -cp "../Project/jna/jna.jar:jna-platform.jar" filename.java
